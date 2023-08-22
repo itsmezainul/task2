@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 4rem;
+  background-color: #eee;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo p {
+  font-size: 1.5rem;
+}
+
+#nav-item {
+  width: 45%;
+}
+
+#nav-item ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#nav-item ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assests/malte-helmhold-O7rDKJQdgOw-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
