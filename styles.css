@@ -165,13 +165,13 @@ button {
 }
 
 .first:hover {
-  background-color: transparent;
+  background-color: white;
   border: 1px solid var(--primaryColor);
   color: var(--primaryColor);
 }
 
 .second {
-  background-color: transparent;
+  background-color: white;
   border: 1px solid var(--primaryColor);
   color: var(--primaryColor);
 }
